@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: burlywood;
+}
+main {
+    background-color: aqua;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: azure;
+    margin: 20px;
+}
+footer {
+    background-color: blueviolet;
+}
