@@ -6,8 +6,25 @@
 header{
     background-color: burlywood;
 }
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 10px;
+}
+li{
+    background-color: darkkhaki;
+    margin: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
 main {
     background-color: aqua;
+}
+h2{
+    text-align: center;
 }
 .card-container{
     display: flex;
@@ -20,6 +37,26 @@ main {
     background-color: azure;
     margin: 20px;
 }
+.hbomax{
+    width: 200px;
+    height: 200px;
+}
 footer {
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div a {
+    text-decoration: none;
+}
+.github , .mail{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 5px;
+}
+.icon-gmail {
+    width: 20px;
+    height: 20px;
 }
