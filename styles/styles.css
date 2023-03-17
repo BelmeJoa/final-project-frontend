@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Shlop";
+    src: url(/assets/shlop\ rg.otf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 header{
     background-color: burlywood;
 }
@@ -16,15 +22,26 @@ header nav ul{
 li{
     background-color: darkkhaki;
     margin: 10px;
+    font-family: "Shlop";
+    font-size: 30px;
 }
 header nav ul li a {
     text-decoration: none;
 }
-main {
-    background-color: aqua;
-}
 h2{
     text-align: center;
+    font-family: "Shlop";
+    font-size: 60px;
+}
+.section-synopsis{
+    background-color: darkgray;
+}
+.synopsis-image {
+    width: 180 px;
+    height: 300px;
+}
+.section-characters{
+    background-color: rgb(34, 125, 178);
 }
 .card-container{
     display: flex;
@@ -37,9 +54,21 @@ h2{
     background-color: azure;
     margin: 20px;
 }
+.section-watch{
+    background-color: tomato;
+    min-height: 50vh
+}
+.div-hbo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin:30px ;
+}
 .hbomax{
     width: 200px;
     height: 200px;
+    border: 5px solid blueviolet;
 }
 footer {
     background-color: blueviolet;
