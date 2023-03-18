@@ -11,13 +11,17 @@
 }
 header{
     background-image:url(/assets/fondo2.jpg);
-    background-size:100% 100%;
+    background-position:center top;
     background-repeat: no-repeat;
-    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.header-image{
-    width: 300px;
-    height: 100px;
+header .header-image {
+    width: 310px;
+    height: 120px;
+    margin: 10px;
 }
 header nav ul{
     display: flex;
@@ -27,13 +31,18 @@ header nav ul{
     gap: 10px;
 }
 li{
-    background-color: darkkhaki;
+    background-color: #170047;
     margin: 10px;
     font-family: "Shlop";
     font-size: 30px;
+    padding: 0px 5px;
+    color: #79c338;
+    border-radius: 15%;
 }
-header nav ul li a {
+header nav ul li a , header nav ul li a:visited{
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #79c338;
 }
 h2{
     text-align: center;
@@ -88,14 +97,12 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-footer div a {
-    text-decoration: none;
-}
 .github , .mail{
     display: flex;
     gap: 5px;
     align-items: center;
     margin: 5px;
+    text-decoration:none;
 }
 .icon-gmail {
     width: 20px;
