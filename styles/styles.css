@@ -57,7 +57,7 @@ header nav ul li:hover{
 body{
     background-image: url(/assets/body2jpg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vh;
     background-attachment: fixed;
 }
 h2{
