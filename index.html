@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +7,10 @@
     <title>Proyecto Final | Front End UTN</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <img src="/assets/Rick-And-Morty-Logo-png.png" alt="Rick and Morty" class="header-image">
@@ -26,9 +27,9 @@
             <div>
                 <h2 id="synop">SYNOPSIS</h2>
             </div>
-            <img src="/assets/synopsis-image.jpg" alt="RickandMorty" class="synopsis-image">
-            <div>
-                <p>Rick is a drunken, brilliant scientist who kidnaps his irritating teenage grandson Morty for
+            <div class="synop-content">
+                <img src="/assets/synopsis-image2.jpg" alt="RickandMorty" class="synopsis-image">
+                <p class="synopsis-text" >Rick is a drunken, brilliant scientist who kidnaps his irritating teenage grandson Morty for
                     adventures on other worlds and alternate dimensions.</p>
             </div>
         </section>
@@ -50,12 +51,12 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="info-footer">
             <h4>Developed by Belmetiuk Joaquin</h4>
             <h4>UTN | Silicon | Front End</h4>
             <h4>Professor: Alberini Gabriel</h4>
         </div>
-        <div>
+        <div class="links-footer">
             <a class="github" target="_blank" href="https://github.com/BelmeJoa">
                 <h4>My GitHub</h4><i style="font-size:24px" class="fa">&#xf09b;</i>
             </a>
@@ -66,5 +67,4 @@
     </footer>
 <script src="/apps/app.js"></script>
 </body>
-
 </html>
