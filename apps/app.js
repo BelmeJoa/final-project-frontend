@@ -10,7 +10,7 @@ APICHARACTERS.then((dato)=>{
         <div class="card">
                     <div class="image-card"> <img src="${characters[i].image}" alt="Rick-image"></div>
                     <div class="info-card">
-                        <h4>${characters[i].name}</h4>
+                        <h4 class="name-character">${characters[i].name}</h4>
                         <h5>Species: ${characters[i].species}</h5>
                         <h5>Location: ${characters[i].location.name}</h5>
                         <h5>Status: ${characters[i].status} </h5>
