@@ -243,6 +243,9 @@ footer {
         width: 110px;
         margin-top: 20px;
     }
+    footer{
+        min-height: 20vh;
+    }
     .links-footer, .info-footer {
         gap: 10px;
         margin: 10px;
@@ -267,7 +270,15 @@ footer {
     }
     h2 {
         font-size: 30px;
+    }
+    #synop{
         margin: 30px 0px 20px 0px;
+    }
+    #chters{
+        margin: 0px 0px 30px 0px;
+    } 
+    #watch{
+        margin: 30px 0px 0px 0px;
     }
     .synopsis-image {
         width: 260px;
@@ -319,5 +330,6 @@ footer {
     }
     .gottop {
         font-size: 20px;
+        margin: 30px;
     }
 }
