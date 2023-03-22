@@ -57,6 +57,7 @@ main {
     background-size: 100% 100%;
     background-attachment: fixed;
     box-shadow: 0px 11px 14px -6px rgba(57,5,105,1) inset;
+    background-color: #966058;
 }
 h2 {
     text-align: center;
