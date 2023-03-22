@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 header .header-image {
     width: 310px;
@@ -173,7 +173,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 30vh;
+    min-height: 25vh;
     color: white;
     box-shadow: 0px -11px 14px -6px rgba(57,5,105,1);
 }
@@ -308,9 +308,6 @@ footer {
         height: 100px;
         width: 100px;
         margin-top: 20px;
-    }
-    footer{
-        min-height: 25vh;
     }
     .links-footer, .info-footer {
         gap: 10px;
