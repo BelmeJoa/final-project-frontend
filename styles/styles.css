@@ -356,3 +356,14 @@ footer {
         margin: 30px;
     }
 }
+@media(min-width:1600px){
+    header{
+        background-size: cover;
+    }
+    .section-synopsis{
+        justify-content: center;
+    }
+    .section-watch{
+        justify-content: space-between;
+    }
+}
